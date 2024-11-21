@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "Header group",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "header-announcement-bar",
+      "blocks": {
+        "f752cf03-1fbc-4be1-a3cc-171a071687d2": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "icon": "icon-delivery-truck-3",
+            "svg-code": "",
+            "text": "Store updates and announcements",
+            "text_link": "learn more",
+            "link": ""
+          }
+        },
+        "539fad8b-91eb-4f52-8e5a-4d3ec8358e38": {
+          "type": "announcement",
+          "settings": {
+            "icon": "icon-delivery-truck-3",
+            "svg-code": "",
+            "text": "Free shipping on orders over $45",
+            "text_link": "click here",
+            "link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "f752cf03-1fbc-4be1-a3cc-171a071687d2",
+        "539fad8b-91eb-4f52-8e5a-4d3ec8358e38"
+      ],
+      "settings": {
+        "home_page_only": false,
+        "text_size_desktop": 2,
+        "text_size_mobile": 2,
+        "text_style": "body",
+        "message_color_bg": "#f5a605",
+        "message_color_text": "#ffffff",
+        "close_icon": false,
+        "auto_carousel": true,
+        "carousel_speed": 8
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "menu": "main-menu",
+        "layout": "left",
+        "style": "scroll",
+        "link_style": "icon",
+        "enable_chevrons": false,
+        "header_divider": false,
+        "header_bg": "#ffffff",
+        "header_text": "#111111",
+        "logo": "shopify://shop_images/Dirty_Rooster_Transparent.png",
+        "header_transparent": true,
+        "header_transparent_collection": false,
+        "header_transparent_divider": true,
+        "header_transparent_text": "#ffffff",
+        "special_link_triggers": "",
+        "special_link_color": "#c00000",
+        "logo_size": 100,
+        "logo_spacing": 7,
+        "logo_size_mobile": 25,
+        "logo_spacing_mobile": 0,
+        "sidebar_main_menu": "",
+        "sidebar_secondary_menu": "",
+        "sidebar_show_borders": true,
+        "sidebar_show_collection_images_in_submenu": true,
+        "sidebar_show_view_all_in_submenu": true,
+        "sidebar_view_all_style": "outline",
+        "sidebar_show_contact_number": false,
+        "sidebar_show_contact_email": true,
+        "sidebar_show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

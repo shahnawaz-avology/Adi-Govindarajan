@@ -1,0 +1,653 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section-slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "section-slideshow-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC01717.jpg",
+            "image_mobile": "shopify://shop_images/DSC01717_20331c59-6625-4fa6-9f85-a8cad403c88f.jpg",
+            "alignment": "left",
+            "title": "Stay Clean, Smell Sexy",
+            "text": "<h2><strong>Dive into the excitement with our lineup of nature-infused soaps specially concocted for men who rock, available in wildly irresistible masculine scents!</strong></h2>",
+            "link_style": "c-btn c-btn--mono",
+            "link_title": "Shop Now",
+            "link": "shopify://collections/all",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        },
+        "section-slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC05681.jpg",
+            "image_mobile": "shopify://shop_images/DSC05681-2_6693bb0e-1972-40a7-af88-01d94ea3e85c.jpg",
+            "alignment": "left",
+            "title": "Stay Clean, Smell Sexy",
+            "text": "<h2><strong>Dive into the excitement with our lineup of nature-infused soaps specially concocted for men who rock, available in wildly irresistible masculine scents!</strong></h2>",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "Shop Now",
+            "link": "shopify://collections/frontpage",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        },
+        "image_pmCidY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC01303.jpg",
+            "image_mobile": "shopify://shop_images/DSC01303_11a27273-b899-442b-a2b7-df4a2d4a9f0a.jpg",
+            "alignment": "left",
+            "title": "Stay Clean, Smell Sexy",
+            "text": "<h2><strong>Dive into the excitement with our lineup of nature-infused soaps specially concocted for men who rock, available in wildly irresistible masculine scents!</strong></h2>",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "Shop Now",
+            "link": "shopify://collections/frontpage",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "section-slideshow-1",
+        "section-slideshow-0",
+        "image_pmCidY"
+      ],
+      "settings": {
+        "style": "transparent",
+        "title_size": 4,
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "nav_style": "solid-brand",
+        "nav_arrows": false,
+        "slideshow_height": "full-screen",
+        "slideshow_width": "full",
+        "section-bottom-margin": false,
+        "text_color": "#ffffff",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "text_bg_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_strength": 40
+      }
+    },
+    "0436301d-0018-4b49-8493-36629494c103": {
+      "type": "section-collection",
+      "blocks": {
+        "collection_M9EUGr": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "heading_color": "#518915",
+            "collection": "frontpage",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_M9EUGr"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "quick_view": true,
+        "text_alignment": "center",
+        "section_width": "small",
+        "link_title": "View all",
+        "link": "",
+        "divider": false,
+        "maximum_products": 4,
+        "grid": 3,
+        "enable_carousel_desktop": true,
+        "grid_mobile": "1",
+        "enable_carousel_mobile": true
+      }
+    },
+    "section_collection_k9GnG7": {
+      "type": "section-collection",
+      "blocks": {
+        "collection_m9yXmy": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "heading_color": "#518915",
+            "collection": "seasonal",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_m9yXmy"
+      ],
+      "settings": {
+        "title": "Seasonal",
+        "quick_view": true,
+        "text_alignment": "center",
+        "section_width": "large",
+        "link_title": "View all",
+        "link": "",
+        "divider": false,
+        "maximum_products": 18,
+        "grid": 3,
+        "enable_carousel_desktop": true,
+        "grid_mobile": "1",
+        "enable_carousel_mobile": true
+      }
+    },
+    "section_video_LVNMDX": {
+      "type": "section-video",
+      "blocks": {
+        "video_EUFHLV": {
+          "type": "video",
+          "settings": {
+            "video_source": "upload",
+            "video_url": "https://youtube.com/watch?v=51s5m_Iyox8",
+            "cst_uploaded_video": "shopify://files/videos/Video.Guru_20240809_202706824 (2) (1).mp4",
+            "image": "shopify://shop_images/Video.Guru_20240809_20270682421-ezgif.com-video-to-gif-converter_1.gif",
+            "video_title": "Wash Your Cock"
+          }
+        }
+      },
+      "block_order": [
+        "video_EUFHLV"
+      ],
+      "settings": {
+        "cst_class": "cst-product-video",
+        "title": "Dirty Rooster",
+        "desc": "<p>Never has smelling good been this easy. With all natural Ingredients and arousing scents, you're sure to get your dirty rooster ready for the day.</p>",
+        "link_title": "More videos",
+        "link": "https://youtube.com/shorts/51s5m_Iyox8",
+        "overlay_strength": 90
+      }
+    },
+    "cst_video_DMd3fU": {
+      "type": "cst-video",
+      "blocks": {
+        "video_ViyKN7": {
+          "type": "video",
+          "settings": {
+            "video_source": "url",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_ViyKN7"
+      ],
+      "disabled": true,
+      "settings": {
+        "cst_class": "",
+        "title": "Dirty Rooster",
+        "desc": "<p>Never has smelling good been this easy. With all natural Ingredients and arousing scents, you're sure to get your dirty rooster ready for the day.</p>",
+        "link_title": "More videos",
+        "link": "https://youtube.com/shorts/51s5m_Iyox8",
+        "overlay_strength": 50
+      }
+    },
+    "ac7829e3-f3f8-4fbb-8aaf-dc6c93046065": {
+      "type": "section-multi-column-icons",
+      "blocks": {
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-0": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-love-it",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Gentle on Skin",
+            "sub_title": "",
+            "desc": "<p>Natural soaps are formulated with gentle, skin-friendly ingredients that cleanse without stripping away essential oils, making them suitable for even sensitive skin types.</p>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-1": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-check-circle-1",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "No Harsh Chemicals",
+            "sub_title": "",
+            "desc": "<p>Natural soaps avoid synthetic additives like sulfates, parabens, and artificial fragrances that can potentially irritate the skin and cause allergies.</p>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-2": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-recycling-sign",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Environmentally Friendly",
+            "sub_title": "",
+            "desc": "<p>Natural soaps are often biodegradable and made using sustainable practices, reducing the environmental impact compared to conventional soaps.</p>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        },
+        "cc8fdcf0-58ba-439b-8228-bb83f64a3dcd": {
+          "type": "text",
+          "settings": {
+            "icon": "icon-like-1",
+            "color_icon": "rgba(0,0,0,0)",
+            "svg-code": "",
+            "title": "Moisturizing",
+            "sub_title": "",
+            "desc": "<p> Ingredients like shea butter, coconut oil, and olive oil in natural soaps can moisturize and hydrate the skin, preventing dryness and maintaining skin's natural moisture barrier.</p>",
+            "link_title": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-0",
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-1",
+        "template--16580692541694__ac7829e3-f3f8-4fbb-8aaf-dc6c93046065-1666783782ba78525d-2",
+        "cc8fdcf0-58ba-439b-8228-bb83f64a3dcd"
+      ],
+      "settings": {
+        "title": "",
+        "container": "small",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "section-bottom-margin": false,
+        "grid": 2,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "icon_size": 30,
+        "icon_padding": 0,
+        "bg_color": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "text_heading_color": false,
+        "text_border_color": true,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel"
+      }
+    },
+    "b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd": {
+      "type": "section-product",
+      "blocks": {
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-vendor-1": {
+          "type": "vendor",
+          "settings": {
+            "vendor_size": 2,
+            "vendor_style": "body"
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-title-1": {
+          "type": "title",
+          "settings": {
+            "title_size": 3,
+            "title_size_mobile": 3
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-price-1": {
+          "type": "price",
+          "settings": {
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-description-1": {
+          "type": "description",
+          "settings": {
+            "desc_text": ""
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "product_variant_style": "swatches-buttons",
+            "popup_enable": false,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-vendor-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-title-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-price-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-spacer-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-description-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-variant_picker-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-quantity_selector-1",
+        "template--15968991740079__b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd-buy_buttons-1"
+      ],
+      "settings": {
+        "featured_product": "el-sexy-muerto",
+        "content_align": "default",
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false
+      }
+    },
+    "e6c3bd10-67e9-4c3b-b5e2-69738954310b": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-0": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p>Wow, this soap lathers up like crazy and the scent lasts FOREVER! And seriously, the colors are absolutely mind-blowing!!</p>",
+            "name": "Brandon A.",
+            "source": "Source"
+          }
+        },
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-1": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p>They're really nice. I struggle with deciding which one I'm gonna use everyday cause they all smell so good!!</p>",
+            "name": "Robert R.",
+            "source": "Source"
+          }
+        },
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-2": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p>Bruh! The Morning Wood... Smells amazing! Great Job on the scent</p>",
+            "name": "Eddie M.",
+            "source": "Source"
+          }
+        }
+      },
+      "block_order": [
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-0",
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-1",
+        "template--14778633355349__e6c3bd10-67e9-4c3b-b5e2-69738954310b-16802773813ee3c4f6-2"
+      ],
+      "settings": {
+        "title": "",
+        "style_desktop": "carousel",
+        "style_mobile": "carousel",
+        "link_title": "Shop now",
+        "link": ""
+      }
+    },
+    "f9003dbd-5d43-493a-a07a-c6523e1a3feb": {
+      "type": "section-image-with-text-overlap",
+      "blocks": {
+        "template--14778633355349__f9003dbd-5d43-493a-a07a-c6523e1a3feb-1680277286c2d60e28-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28_4_transparent.png",
+            "title": "Stay Clean, Smell Sexy",
+            "desc": "<p>Never has smelling good been this easy. With all natural Ingredients and arousing scents, you're sure to get your dirty rooster ready for the day.</p>",
+            "horizontal_align": "left",
+            "link_title": "Learn more",
+            "link": "",
+            "bg_color_block": "#ffffff",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        },
+        "template--14778633355349__f9003dbd-5d43-493a-a07a-c6523e1a3feb-1680277286c2d60e28-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
+            "horizontal_align": "left",
+            "link_title": "Learn more",
+            "link": "",
+            "bg_color_block": "#ffffff",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14778633355349__f9003dbd-5d43-493a-a07a-c6523e1a3feb-1680277286c2d60e28-0",
+        "template--14778633355349__f9003dbd-5d43-493a-a07a-c6523e1a3feb-1680277286c2d60e28-1"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 5,
+        "section-bottom-margin": true,
+        "image_ratio": "natural",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "heading_size": 3,
+        "link_style": "hollow",
+        "text_style": "semi"
+      }
+    },
+    "e7564c21-6be8-45b8-a2ff-9dbd3e39175a": {
+      "type": "section-collection-list",
+      "blocks": {
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-4": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "heading": "",
+            "description": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "3e683265-c668-4024-a9d0-7cd0570a66b1": {
+          "type": "media",
+          "settings": {
+            "heading": "Vintage Colored Washed T-Shirts",
+            "text": "Pigment dye colors provide a vintage look that will remain for the life of the garment\nReactive dye colors provide a traditional dyed appearance, with the same great softness",
+            "link_text": "",
+            "link": "",
+            "button_style": "c-btn c-btn--hollow",
+            "image": "shopify://shop_images/DSC08644_1.jpg",
+            "alignment": "bottom-left",
+            "text_alignment": "left",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_strength": 20,
+            "color_default_heading": false,
+            "color_default_border": false
+          }
+        },
+        "media_zC8dYG": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "heading": "Media promo",
+            "text": "Create a promotion by adding an image or wallpaper video here",
+            "link_text": "",
+            "link": "",
+            "button_style": "c-btn c-btn--hollow",
+            "video": "shopify://files/videos/Video.Guru_20240810_091954936.mp4",
+            "alignment": "bottom-left",
+            "text_alignment": "left",
+            "color_text": "#ffffff",
+            "color_overlay": "#000000",
+            "color_overlay_strength": 20,
+            "color_default_heading": false,
+            "color_default_border": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-0",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-1",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-2",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-3",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-4",
+        "template--15118602403863__e7564c21-6be8-45b8-a2ff-9dbd3e39175a-168789263903095273-5",
+        "3e683265-c668-4024-a9d0-7cd0570a66b1",
+        "media_zC8dYG"
+      ],
+      "settings": {
+        "title": "",
+        "desc": "",
+        "divider": false,
+        "heading_alignment": "center",
+        "section_width": "large",
+        "grid": 3,
+        "spacing": 3,
+        "enable_carousel_desktop": true,
+        "enable_carousel_mobile": true,
+        "title_size": 3,
+        "image_ratio": "3:4",
+        "button_style": "c-btn c-btn--hollow",
+        "alignment": "middle-center",
+        "text_alignment": "center",
+        "visibility_heading": true,
+        "visibility_border": true,
+        "visibility_count": false,
+        "visibility_description": false,
+        "visibility_button": true,
+        "hover_options": "hover-button",
+        "color_text": "#ffffff",
+        "color_overlay": "#000000",
+        "color_overlay_strength": 20,
+        "color_default_heading": false,
+        "color_default_border": true,
+        "link_title": "Shirt",
+        "link": "shopify://products/dirty-rooster-t-shirt",
+        "section_link_style": "link link--arrow",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "deed0c7d-a6b2-434e-8882-2a7cba84c982": {
+      "type": "section-map",
+      "blocks": {
+        "template--16580692541694__deed0c7d-a6b2-434e-8882-2a7cba84c982-16667837825ddf24c3-0": {
+          "type": "map",
+          "settings": {
+            "title": "Map",
+            "desc": "<p>273 Street Lane<br/>San Francisco, CA 94102<br/>(415) 557-4400<br/>store@email.com</p>",
+            "sub_desc": "<p>Monday - Thursday, 12:00 to 23:00<br/>Friday & Saturday, 12:00 to 00:00<br/>Sunday, Closed</p>",
+            "address": "100 Larkin St, San Francisco, CA 94102, USA"
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692541694__deed0c7d-a6b2-434e-8882-2a7cba84c982-16667837825ddf24c3-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_directions_btn": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "section-bottom-margin": false,
+        "google_api_key": "",
+        "map_style": "light"
+      }
+    }
+  },
+  "order": [
+    "section-slideshow",
+    "0436301d-0018-4b49-8493-36629494c103",
+    "section_collection_k9GnG7",
+    "section_video_LVNMDX",
+    "cst_video_DMd3fU",
+    "ac7829e3-f3f8-4fbb-8aaf-dc6c93046065",
+    "b0a7a6b3-1578-4e05-8790-6b7fdccfbfbd",
+    "e6c3bd10-67e9-4c3b-b5e2-69738954310b",
+    "f9003dbd-5d43-493a-a07a-c6523e1a3feb",
+    "e7564c21-6be8-45b8-a2ff-9dbd3e39175a",
+    "deed0c7d-a6b2-434e-8882-2a7cba84c982"
+  ]
+}

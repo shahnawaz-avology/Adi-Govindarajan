@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://cdn.shopify.com/s/files/1/0568/8288/8879/files/Gotham-Black.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://cdn.shopify.com/s/files/1/0568/8288/8879/files/Gotham-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://cdn.shopify.com/s/files/1/0568/8288/8879/files/Gotham-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('https://cdn.shopify.com/s/files/1/0568/8288/8879/files/Gotham-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,431 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_product_cUn4Pg": {
+      "type": "section-product",
+      "blocks": {
+        "vendor_axC9eN": {
+          "type": "vendor",
+          "settings": {
+            "vendor_size": 2,
+            "vendor_style": "body"
+          }
+        },
+        "title_FHfce8": {
+          "type": "title",
+          "settings": {
+            "title_size": 3,
+            "title_size_mobile": 3
+          }
+        },
+        "price_9nAMTw": {
+          "type": "price",
+          "settings": {
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "spacer_VRwP6k": {
+          "type": "spacer",
+          "settings": {
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "description_3cAF6a": {
+          "type": "description",
+          "settings": {
+            "desc_text": "<p>Unleash your inner rebel with <strong>El Sexy Muerto</strong>, the soap that brings a bold twist to your grooming game. Infused with a rugged, earthy aroma, it marries the strength of cedarwood with a sharp undertone of tea tree and the intoxicating depth of patchouli. Perfectly balanced for the modern man, this soap isn’t just about smelling good—it's about making a statement.</p><p>With natural sea salt for a touch of exfoliation and swirls of activated charcoal soap to cleanse and detoxify, it’s more than just clean—it’s <strong>dangerously irresistible</strong>. Elevate your shower routine with a soap that’s as wild and mysterious as you are.</p>"
+          }
+        },
+        "variant_picker_V6axef": {
+          "type": "variant_picker",
+          "settings": {
+            "product_variant_style": "swatches-buttons",
+            "popup_enable": false,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "quantity_selector_ezPqKF": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_tanVA3": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor_axC9eN",
+        "title_FHfce8",
+        "price_9nAMTw",
+        "spacer_VRwP6k",
+        "description_3cAF6a",
+        "variant_picker_V6axef",
+        "quantity_selector_ezPqKF",
+        "buy_buttons_tanVA3"
+      ],
+      "disabled": true,
+      "settings": {
+        "featured_product": "el-sexy-muerto",
+        "content_align": "default",
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+            "vendor_size": 2,
+            "vendor_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 2,
+            "title_size_mobile": 4
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "emphasize": true,
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "product_variant_style": "swatches-buttons",
+            "popup_enable": true,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "loop_subscriptions_loop_widget_fxqjAL": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_gift_card_recipient": false,
+            "enable_payment_button": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "column": "primary",
+            "align": "center"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "column": "primary"
+          }
+        },
+        "c13717d6-5def-40f5-9684-68f8f103b0d4": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "column": "secondary",
+            "title": "Collapsible tab",
+            "text": "",
+            "image_width": 1000,
+            "align": "center",
+            "link": "",
+            "tab_content": "",
+            "open": false
+          }
+        },
+        "663a3435-b014-41e0-916d-1ed9505f5691": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "column": "secondary",
+            "title": "Collapsible tab",
+            "text": "",
+            "image_width": 1000,
+            "align": "center",
+            "link": "",
+            "tab_content": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "loop_subscriptions_loop_widget_fxqjAL",
+        "buy_buttons",
+        "share",
+        "description",
+        "c13717d6-5def-40f5-9684-68f8f103b0d4",
+        "663a3435-b014-41e0-916d-1ed9505f5691"
+      ],
+      "settings": {
+        "style": "clean",
+        "style_clean_mobile": true,
+        "layout-order": "media-left",
+        "enable_sticky_content": true,
+        "container": "large",
+        "show_breadcrumbs": true,
+        "breadcrumbs_align": "center",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false
+      }
+    },
+    "af1e6c23-5338-467c-bee9-b9d9b3d9c22a": {
+      "type": "section-image-grid",
+      "blocks": {
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-0": {
+          "type": "image",
+          "settings": {
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Image block",
+            "text": "Use these image blocks to tell your story, promote your products or create a beautiful gallery.",
+            "link": ""
+          }
+        },
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-1": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#f0f0f0",
+            "text_color": "dark",
+            "text_heading_color": false,
+            "text_border_color": true,
+            "title": "Text block",
+            "text": "<p>Use these text blocks to promote seasonal sales, store events or to tell your brand's story.</p>",
+            "link_text": "Learn more",
+            "link": ""
+          }
+        },
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-2": {
+          "type": "text",
+          "settings": {
+            "bg_color": "#f0f0f0",
+            "text_color": "dark",
+            "text_heading_color": false,
+            "text_border_color": true,
+            "title": "Text block",
+            "text": "<p>Use these text blocks to promote seasonal sales, store events or to tell your brand's story.</p>",
+            "link_text": "Learn more",
+            "link": ""
+          }
+        },
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-3": {
+          "type": "image",
+          "settings": {
+            "text_alignment": "bottom",
+            "text_border_color": false,
+            "title": "Image block",
+            "text": "Use these image blocks to tell your story, promote your products or create a beautiful gallery.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-0",
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-1",
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-2",
+        "template--14778633322581__af1e6c23-5338-467c-bee9-b9d9b3d9c22a-1680270173f8db9315-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "full",
+        "button_style": "hollow",
+        "overlay_strength": 10,
+        "section-bottom-margin": false
+      }
+    },
+    "5a818a60-e694-4eac-a33f-5ce701e894b0": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC01880.jpg",
+            "title": "The Best Natural Soap for Men",
+            "desc": "<p>These aren't your run-of-the-mill bars of soap. They're luxurious works of art meticulously curated to elevate your bathing routine. Get ready to come out of your shower feeling like a million bucks and smelling like a billion.<br/><br/><strong>Each Bar of Dirty Rooster is:<br/></strong></p><ul><li>Made of 100% Natural Ingredients</li><li>Meticulously Crafted by Hand</li><li>Environmentally Friendly, with Biodegradable Ingredients</li><li>Free of Sulfates, Parabens, and Artificial Fragrances</li><li>Great for Sensitive Skin</li><li>Proudly Made in the USA!</li></ul>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "rgba(0,0,0,0)",
+            "color_text": "#212121",
+            "text_heading_color": false,
+            "text_border_color": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692508926__5a818a60-e694-4eac-a33f-5ce701e894b0-1666784018a0003e2f-1"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "1:1",
+        "block_layout": "1/2",
+        "block_align": "right",
+        "vertical_align": "top",
+        "heading_size": 2,
+        "link_style": "chevron"
+      }
+    },
+    "9904a28f-6381-41fe-96eb-d4a73d60f0a0": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--16580692508926__9904a28f-6381-41fe-96eb-d4a73d60f0a0-1666784019a14d8867-0": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p></p><p>5 out of 5 stars</p><p>lol.. love the product! Smells amazing.</p>",
+            "name": "Pamela J ",
+            "source": "Etsy"
+          }
+        },
+        "text_K3wcNG": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p>5 out of 5 stars</p><p>lol.. love the product! Smells amazing.</p>",
+            "name": "Chuck",
+            "source": "Etsy"
+          }
+        },
+        "template--16580692508926__9904a28f-6381-41fe-96eb-d4a73d60f0a0-1666784019a14d8867-1": {
+          "type": "text",
+          "settings": {
+            "media": "quote",
+            "image_round": true,
+            "text": "<p>5 out of 5 stars</p><p>lol.. love the product! Smells amazing.</p>",
+            "name": "Sara",
+            "source": "Instagram"
+          }
+        }
+      },
+      "block_order": [
+        "template--16580692508926__9904a28f-6381-41fe-96eb-d4a73d60f0a0-1666784019a14d8867-0",
+        "text_K3wcNG",
+        "template--16580692508926__9904a28f-6381-41fe-96eb-d4a73d60f0a0-1666784019a14d8867-1"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "style_desktop": "grid",
+        "style_mobile": "carousel",
+        "link_title": "Shop now",
+        "link": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "related_title": "You may also like",
+        "section_width": "large",
+        "related_mobile_layout": "carousel",
+        "related_grid_num": 3,
+        "grid_mobile": "1",
+        "related_grid_row": 1
+      }
+    },
+    "section_video_w44dpT": {
+      "type": "section-video",
+      "blocks": {
+        "video_prjiVk": {
+          "type": "video",
+          "settings": {
+            "video_source": "upload",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "cst_uploaded_video": "shopify://files/videos/Video.Guru_20240809_202706824 (2) (1).mp4",
+            "image": "shopify://shop_images/Video.Guru_20240809_20270682421-ezgif.com-video-to-gif-converter_1.gif",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_prjiVk"
+      ],
+      "settings": {
+        "cst_class": "cst-product-video",
+        "title": "Dirty Rooster",
+        "desc": "<p>Never has smelling good been this easy. With all natural Ingredients and arousing scents, you're sure to get your dirty rooster ready for the day.</p>",
+        "link_title": "More videos",
+        "link": "",
+        "overlay_strength": 50
+      }
+    },
+    "1728025629d35f1cab": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_KAbGA8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_KAbGA8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "section_product_cUn4Pg",
+    "main",
+    "af1e6c23-5338-467c-bee9-b9d9b3d9c22a",
+    "5a818a60-e694-4eac-a33f-5ce701e894b0",
+    "9904a28f-6381-41fe-96eb-d4a73d60f0a0",
+    "product-recommendations",
+    "section_video_w44dpT",
+    "1728025629d35f1cab"
+  ]
+}

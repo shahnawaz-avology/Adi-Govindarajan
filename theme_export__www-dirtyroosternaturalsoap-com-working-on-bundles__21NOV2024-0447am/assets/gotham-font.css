@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url(//www.dirtyroosternaturalsoap.com/cdn/shop/files/Gotham-Medium_5fda34e3-befc-4b70-b82b-0faeeeb0ce0f.woff2?v=240828672544919362) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(//www.dirtyroosternaturalsoap.com/cdn/shop/files/Gotham-Bold_e52c2c5d-fdfc-4717-ba93-d58aba14bbe0.woff2?v=9087400267430534336) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(//www.dirtyroosternaturalsoap.com/cdn/shop/files/Gotham-Book.woff2?v=4164486082649720357) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

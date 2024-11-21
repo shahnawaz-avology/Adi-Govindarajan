@@ -1,0 +1,314 @@
+<style>
+  .product-option .option button.option-button.selected.active {border-color: #000;}
+    .custom-model-main {
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; /* z-index: 1050; */
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear, z-index 0.15;
+    -o-transition: opacity 0.15s linear, z-index 0.15;
+    transition: opacity 0.15s linear, z-index 0.15;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .model-open {
+    z-index: 99999;
+    opacity: 1;
+    overflow: hidden;
+  }
+  .custom-model-inner {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+    display: inline-block;
+    vertical-align: middle;
+    width: 600px;
+    margin: 30px auto;
+    max-width: 97%;
+  }
+  .custom-model-wrap {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-clip: padding-box;
+    outline: 0;
+    text-align: left;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: calc(100vh - 70px);
+  	overflow-y: auto;
+  }
+  .model-open .custom-model-inner {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: relative;
+    z-index: 999;
+  }
+  .model-open .bg-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+  }
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-transition: background 0.15s linear;
+    -o-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+  }
+  .close-btn {
+    position: absolute;
+    right: 0;
+    left:90%;
+    top: -20px;
+    cursor: pointer;
+    z-index: 99;
+    font-size: 30px;
+    color: #000;
+  }
+
+  @media screen and (min-width:800px){
+  	.custom-model-main:before {
+  	  content: "";
+  	  display: inline-block;
+  	  height: auto;
+  	  vertical-align: middle;
+  	  margin-right: -0px;
+  	  height: 100%;
+  	}
+  }
+  @media screen and (max-width:799px){
+    .custom-model-inner{margin-top: 45px;}
+  }
+</style>
+<div class="custom-model-main">
+  <div class="custom-model-inner">
+    <div class="close-btn">×</div>
+    <div class="custom-model-wrap">
+      <div class="pop-up-content-wrap">
+        <div class="product-image">
+          <img src="">
+          <div class="product-title"></div>
+          <div class="product-price" style=""></div>
+        </div>
+
+        <!-- <div class="product-option"></div> -->
+        <!-- <div class="product-selection" style="display:none;"></div> -->
+        <!-- <div class="product-variants" style="display:none;"></div> -->
+        <input
+          type="hidden"
+          class="matched-variant-id"
+          variant-ids="{{ product.selected_or_first_available_variant.id }}"
+        >
+        <a class="ad-to-cart" href="javascript:void(0);">Add to cart</a>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="bg-overlay"></div> -->
+</div>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script>
+  //  $(document).ready(function() {
+
+
+
+
+  //                      $(".Click-here").on('click', function() {
+  //                    $(".custom-model-main").addClass('model-open');
+  //                  });
+  //                  $(".close-btn, .bg-overlay").click(function(){
+  //                    $(".custom-model-main").removeClass('model-open');
+  //                  });
+
+  //                        // Open modal on bag icon click
+  //                        $('.bag-icon').on('click', function() {
+  //                            const productId = $(this).data('product-id');
+  //                            $('#cartModal-' + productId).fadeIn(); // Show the corresponding modal
+  //                        });
+
+  //                        // Close the modal
+  //                          $(document).on('click', '.close', function() {
+
+  //                            const productId = $(this).data('modal-id');
+  //                            productId.fadeOut(); // Hide the corresponding modal
+  //                        });
+
+  //                        // Close modal when clicking outside of it
+  //                        $(window).on('click', function(event) {
+  //                            if ($(event.target).hasClass('cart-modal')) {
+  //                                $(event.target).fadeOut(); // Hide the modal
+  //                            }
+  //                        });
+
+
+
+
+
+
+
+
+
+
+
+  //              $(document).on('click', '.Click-here', function (event) {
+  //                  event.preventDefault();
+
+  //                  // Get the product handle from the data attribute
+  //                  var productHandle = $(this).data('handle');
+
+  //                  // Fetch product data using Shopify's AJAX API
+  //                  $.ajax({
+  //                      url: '/products/' + productHandle + '.js',
+  //                      dataType: 'json',
+  //                      success: function (product) {
+  //                          // Log the complete product data
+  //                          console.log(product);
+
+  //                          // Display product image, title, and price
+  //                          $('.custom-model-main .product-image img').attr('src', product.images[0]); // Set the image source
+  //                          $('.custom-model-main .product-title').text(product.title);
+  //                        const priceInDollars = (product.price / 100).toFixed(2); // Convert cents to dollars and format to 2 decimal places
+  //       $('.custom-model-main .product-price').text('$' + priceInDollars);
+  //                          // $('.custom-model-main .product-price').text(product.price); // Format the price if needed
+  //                        $('.custom-model-main .ad-to-cart').attr('href', product.url);
+  //                          // Clear existing options and variants
+  //                          $('.custom-model-main .product-option').empty();
+  //                          $('.custom-model-main .product-variants').empty();
+
+  //                          // Loop through product options and append them
+
+  //                          product.options.forEach(function(option, index) {
+  //                            var optionHTML = '<div class="option looping-' + (index + 1) + '"><strong>' + option.name + ':</strong>';
+
+  //                            // Create a button for each value
+  //                            option.values.forEach(function(value) {
+  //                                optionHTML += '<button class="option-button" data-value="' + value + '">' + value + '</button> ';
+  //                            });
+
+  //                            optionHTML += '</div>';
+  //                            $('.custom-model-main .product-option').append(optionHTML);
+  //                          });
+
+
+
+  //                          // Loop through product variants and append their details
+  //                          product.variants.forEach(function(variant) {
+  //                              var variantHTML = '<div class="variant" variant-id='+variant.id+'>';
+  //                              variantHTML += '<strong>' + variant.name + '</strong>';
+  //                              variantHTML += 'Price: ' + variant.price + '<br>';
+  //                              if (variant.compare_at_price) {
+  //                                  variantHTML += 'Compare At Price: ' + variant.compare_at_price + '';
+  //                              }
+  //                            variantHTML += 'ID: ' + variant.id + '';
+  //                              variantHTML += '<img height="50px" width="50px" src="' + (variant.featured_image ? variant.featured_image.src : '') + '" alt="' + variant.name + '" />';
+  //                              variantHTML += '</div>'; // Add a separator between variants
+
+  //                              $('.custom-model-main .product-variants').append(variantHTML);
+  //                          });
+  //                      },
+  //                      error: function (xhr, status, error) {
+  //                          console.error('Error fetching product data:', error);
+  //                      }
+  //                  });
+  //              });
+
+
+  //       var selectedOptions = {};
+
+  // $(document).on('click', '.option-button', function(event) {
+  //     event.preventDefault();
+
+  //     // Get the current selection and format it
+  //     // Only remove 'selected' and 'active' from the buttons within the same option group
+  //     $(this).closest('.option').find('.option-button').removeClass('selected active');
+  //     $(this).addClass('selected active');  // Add both classes to the clicked option
+
+  //     var value = $(this).data('value');
+  //     var optionName = $(this).closest('.option').find('strong').text().replace(':', '');
+  //     selectedOptions[optionName] = value;
+
+  //     var formattedSelection = Object.values(selectedOptions).join(' / ');
+  //     $('.product-selection').text(formattedSelection);
+
+  //     // Check if all options have been selected
+  //     if (Object.keys(selectedOptions).length === $('.option').length) {
+  //         // Match with variants in the product-variants div
+  //         var selectedCombination = $('.product-selection').text().trim();
+  //         var matchedVariantId = null;
+
+  //         // Loop through each variant and check if the variant options match the selected combination
+  //         $('.product-variants .variant').each(function() {
+  //             var variantText = $(this).find('strong').text().trim();
+  //             var variantOptions = variantText.split(' - ').pop().trim();
+
+  //             if (variantOptions === selectedCombination) {
+  //                 // If exactly matched, save the variant-id
+  //                 matchedVariantId = $(this).attr('variant-id');
+  //             }
+  //         });
+
+  //         // Show the matched variant ID if found
+  //         if (matchedVariantId) {
+  //             console.log('Matched Variant ID:', matchedVariantId);
+  //             // Optionally, display it in the UI
+  //             $('.matched-variant-id').attr('variant-ids', matchedVariantId);
+  //         }
+  //     }
+  // });
+
+
+
+  //     // $('.custom-model-main .ad-to-cart').click(function(event) {
+  //     //            event.preventDefault();
+
+  //     //          var ID = $('.matched-variant-id').attr('variant-ids');
+  //     //          $.ajax({
+  //     //          type: 'POST',
+  //     //          url: '/cart/add.js',
+  //     //          data: {
+  //     //          quantity: 1,
+  //     //          id: ID
+  //     //          },
+  //     //          dataType: 'json',
+  //     //          success: function (data) {
+  //     //          console.log(data);
+  //     //         $('.custom-model-main').removeClass('model-open').fadeOut();
+  //     //            window.location.reload();
+
+  //     //          }
+  //     //          });
+
+  //     // });
+
+
+
+  //                    });
+</script>
